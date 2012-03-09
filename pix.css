@@ -1,0 +1,76 @@
+body,table,input,textarea,select,button {font-family:sans-serif;}
+section, header, footer, article, nav {display:block;}
+
+body { background-image: url('img/bg_pattern.jpg'); background-repeat:repeat; background-position:top left; background-attachment: scroll; font-size:2em; color:#DDD;}
+
+*  { margin:0px;padding:0px;outline:none;text-decoration:none;border:none;line-height:100%;}
+li { list-style:none; }
+a:active, button {outline:none; }
+a:focus {-moz-outline-style:none; }
+
+#header {  }
+#content { padding-top:10px;}
+#footer {  }
+#download { padding-bottom:110px; #display:inline; }
+#feature { padding-top:110px; _display:inline;}
+
+#camera { width:326px; margin:auto;}
+#devices { width:100%; height: 673px;  margin:auto; margin-top:-55px; overflow: hidden; 
+background: url(img/intro_devices.png) center no-repeat;
+}
+#devices img { display:none; }
+#video_content { width:640px; margin:auto; margin-bottom:70px;}
+#title { width:325px; margin:auto; margin-top:60px; }
+#intro { width:572px; margin:auto; margin-top:10px; margin-bottom:110px; }
+#video_title  { width:204px; margin:auto; padding-bottom:28px; }
+#download_title { width:397px; margin:auto; padding-top:28px; }
+#feature_title { width:325px; margin:auto; padding-top:32px; }
+#feature_list{ width:780px; margin:auto; }
+#overlap_filter_thumb {}
+#overlap_filter_text { margin-top:40px; margin-bottom:50px; margin-right:10px; }
+#effect_preset_thumb { margin-top:-30px; }
+#effect_preset_text { margin-top:10px; margin-left:60px; }
+#my_favorite_thumb { margin-top:20px; }
+#my_favorite_text { margin-top:20px; margin-bottom:50px; margin-right:205px; }
+#simple_ui_thumb { margin-top:-10px; }
+#simple_ui_text { margin-top:30px; margin-bottom:40px; margin-left:-20px; }
+#sns_share_thumb { margin-top:0px; }
+#sns_share_text { margin-top:20px; margin-bottom:140px; margin-right:160px; }
+
+.title_bg { height:187px; background-image: url('img/bg_title.png'); background-repeat:repeat; background-position:left; }
+
+.download_button { width: 560px; margin:auto; position: relative; }
+
+.download_button a {
+	background-image: url('img/btn_download_default.png');
+	background-repeat:no-repeat;
+	width: 140px;
+	height: 160px;
+	display: block;
+	float: left;
+	border: none;
+	text-indent: -9812px;
+	margin-top: -40px;
+	margin-left: 35px;
+	margin-right: 10px;
+	padding: 0px;
+}
+
+.download_button #download_for_ipad { 
+	background-position-x: 0px;
+	background-position-y: 0px;
+}
+
+.download_button #download_for_iphone { 
+	background-position-x: -180px;
+	background-position-y: 0px;
+}
+
+.download_button #download_for_android { 
+	background-position-x: -360px;
+	background-position-y: 0px;
+}
+
+.float_left { float: left; }
+
+.float_right { float: right; }
